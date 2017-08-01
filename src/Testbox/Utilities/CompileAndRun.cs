@@ -15,7 +15,6 @@ namespace Testbox.Utilities
 #else
         private const string Directory = "Release";
 #endif
-
    
         private const string SmartContractDirectory = "../../../../";
 

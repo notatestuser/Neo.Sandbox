@@ -1,13 +1,16 @@
 # Neo.Sandbox
 A project to explore and learn more about the NEO code base.
 
-This project allows you to easily create and execute smart contracts locally. The solution is set up to be checked out along with the [Neo.Ecosystem](https://github.com/vardthomas/Neo.Ecosystem) project.
+This project allows you to easily create and execute smart contracts locally. The solution is set up to be checked out along with the [Neo.Ecosystem](https://github.com/vardthomas/Neo.Ecosystem) project. In order for all of the project references to be resolved correcty, your root folder should look like this:
 
-You should fork this project and use it as a playground to experiment with compiling and executiong smart contracts. The solution is laid out as follows:
+* Neo.Ecosystem/
+* Neo.Sandbox/
 
-* 'neo' solution folder - Contains neo core project references
-* 'smart_contracts' - Contains an example HelloWorld smart Contract
-* Testbox Project - Unit test project used to compile and run smart contracts.
+You should fork this project and use it as a playground to experiment with compiling and executing smart contracts. The solution is laid out as follows:
+
+* 'neo' solution folder - contains neo core project references
+* 'smart_contracts' - contains an example HelloWorld smart contract
+* Testbox project - unit test project used to compile and run smart contracts
 
 ### Using the solution
 

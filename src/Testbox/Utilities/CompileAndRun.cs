@@ -10,11 +10,18 @@ namespace Testbox.Utilities
 {
     public static class CompileAndRun
     {
+#if DEBUG 
+        private const string Directory = "Debug";
+#else
+        private const string Directory = "Release";
+#endif
+
+   
         private const string SmartContractDirectory = "../../../../";
 
         public static byte[] Compile(string projectName)
         {
-            return Converter.Convert(new FileStream(Path.Combine(SmartContractDirectory, projectName, @"bin\Debug", $"{projectName}.dll"), FileMode.Open));
+            return Converter.Convert(new FileStream(Path.Combine(SmartContractDirectory, projectName, $@"bin\{Directory}", $"{projectName}.dll"), FileMode.Open));
         }
 
         public static void Run(byte[] program)

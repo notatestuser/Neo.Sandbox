@@ -9,7 +9,7 @@ This project allows you to easily create and execute smart contracts locally. Th
 You should fork this project and use it as a playground to experiment with compiling and executing smart contracts. The solution is laid out as follows:
 
 * 'neo' solution folder - contains neo core project references
-* 'smart_contracts' - contains an example HelloWorld smart contract
+* 'smart_contracts' - contains example smart contracts
 * Testbox project - unit test project used to compile and run smart contracts
 
 ### Using the solution

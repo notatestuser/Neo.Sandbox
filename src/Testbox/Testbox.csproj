@@ -15,10 +15,8 @@
     <ProjectReference Include="..\..\..\Neo.Ecosystem\src\neo-devpack-dotnet\Neo.SmartContract.Framework\Neo.SmartContract.Framework.csproj" />
     <ProjectReference Include="..\..\..\Neo.Ecosystem\src\neo-vm\src\neo-vm\neo-vm.csproj" />
     <ProjectReference Include="..\..\..\Neo.Ecosystem\src\neo\neo\neo.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
+    <ProjectReference Include="..\..\..\Neo.Sandbox\src\Calculator\Calculator.csproj" />
+    <ProjectReference Include="..\..\..\Neo.Sandbox\src\Helloworld\Helloworld.csproj" />
   </ItemGroup>
 
 </Project>

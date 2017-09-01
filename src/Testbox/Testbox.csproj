@@ -16,7 +16,7 @@
     <ProjectReference Include="..\..\..\Neo.Ecosystem\src\neo-vm\src\neo-vm\neo-vm.csproj" />
     <ProjectReference Include="..\..\..\Neo.Ecosystem\src\neo\neo\neo.csproj" />
     <ProjectReference Include="..\..\..\Neo.Sandbox\src\Calculator\Calculator.csproj" />
-    <ProjectReference Include="..\..\..\Neo.Sandbox\src\Helloworld\Helloworld.csproj" />
+    <ProjectReference Include="..\..\..\Neo.Sandbox\src\HelloWorld\HelloWorld.csproj" />
   </ItemGroup>
 
 </Project>
